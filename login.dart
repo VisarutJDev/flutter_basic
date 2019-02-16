@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
                       height: 50.0,
                       child: RaisedButton(
                         color: Colors.grey,
-                        onPressed: validateAndSave,
+                        onPressed: validateAndSubmit,
                         child: Text(
                           'Login',
                           style: TextStyle(fontSize: 20.0, color: Colors.white),
